@@ -1,0 +1,8 @@
+D:\个人资料\电池系统\电池自动控制系统\IntegratedControlSystem\NE.ICS.Common\bin\Debug\netcoreapp3.1\NE.ICS.Common.deps.json
+D:\个人资料\电池系统\电池自动控制系统\IntegratedControlSystem\NE.ICS.Common\bin\Debug\netcoreapp3.1\NE.ICS.Common.dll
+D:\个人资料\电池系统\电池自动控制系统\IntegratedControlSystem\NE.ICS.Common\bin\Debug\netcoreapp3.1\NE.ICS.Common.pdb
+D:\个人资料\电池系统\电池自动控制系统\IntegratedControlSystem\NE.ICS.Common\obj\Debug\netcoreapp3.1\NE.ICS.Common.AssemblyInfoInputs.cache
+D:\个人资料\电池系统\电池自动控制系统\IntegratedControlSystem\NE.ICS.Common\obj\Debug\netcoreapp3.1\NE.ICS.Common.AssemblyInfo.cs
+D:\个人资料\电池系统\电池自动控制系统\IntegratedControlSystem\NE.ICS.Common\obj\Debug\netcoreapp3.1\NE.ICS.Common.csproj.CoreCompileInputs.cache
+D:\个人资料\电池系统\电池自动控制系统\IntegratedControlSystem\NE.ICS.Common\obj\Debug\netcoreapp3.1\NE.ICS.Common.dll
+D:\个人资料\电池系统\电池自动控制系统\IntegratedControlSystem\NE.ICS.Common\obj\Debug\netcoreapp3.1\NE.ICS.Common.pdb

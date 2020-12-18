@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Session\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NE.ICS.OAuth\NE.ICS.OAuth.csproj" />
+    <ProjectReference Include="..\NE.ICS.ORM\NE.ICS.ORM.csproj" />
+    <ProjectReference Include="..\NE.ICS.Repository\NE.ICS.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

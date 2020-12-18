@@ -1,0 +1,411 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\个人资料\\电池系统\\电池自动控制系统\\IntegratedControlSystem\\NE.ICS.Repository\\NE.ICS.Repository.csproj": {}
+  },
+  "projects": {
+    "D:\\个人资料\\电池系统\\电池自动控制系统\\IntegratedControlSystem\\NE.ICS.Attribute\\NE.ICS.Attribute.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\个人资料\\电池系统\\电池自动控制系统\\IntegratedControlSystem\\NE.ICS.Attribute\\NE.ICS.Attribute.csproj",
+        "projectName": "NE.ICS.Attribute",
+        "projectPath": "D:\\个人资料\\电池系统\\电池自动控制系统\\IntegratedControlSystem\\NE.ICS.Attribute\\NE.ICS.Attribute.csproj",
+        "packagesPath": "C:\\Users\\86135\\.nuget\\packages\\",
+        "outputPath": "D:\\个人资料\\电池系统\\电池自动控制系统\\IntegratedControlSystem\\NE.ICS.Attribute\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\86135\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\个人资料\\电池系统\\电池自动控制系统\\IntegratedControlSystem\\NE.ICS.Common\\NE.ICS.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\个人资料\\电池系统\\电池自动控制系统\\IntegratedControlSystem\\NE.ICS.Common\\NE.ICS.Common.csproj",
+        "projectName": "NE.ICS.Common",
+        "projectPath": "D:\\个人资料\\电池系统\\电池自动控制系统\\IntegratedControlSystem\\NE.ICS.Common\\NE.ICS.Common.csproj",
+        "packagesPath": "C:\\Users\\86135\\.nuget\\packages\\",
+        "outputPath": "D:\\个人资料\\电池系统\\电池自动控制系统\\IntegratedControlSystem\\NE.ICS.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\86135\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\个人资料\\电池系统\\电池自动控制系统\\IntegratedControlSystem\\NE.ICS.Core\\NE.ICS.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\个人资料\\电池系统\\电池自动控制系统\\IntegratedControlSystem\\NE.ICS.Core\\NE.ICS.Core.csproj",
+        "projectName": "NE.ICS.Core",
+        "projectPath": "D:\\个人资料\\电池系统\\电池自动控制系统\\IntegratedControlSystem\\NE.ICS.Core\\NE.ICS.Core.csproj",
+        "packagesPath": "C:\\Users\\86135\\.nuget\\packages\\",
+        "outputPath": "D:\\个人资料\\电池系统\\电池自动控制系统\\IntegratedControlSystem\\NE.ICS.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\86135\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\个人资料\\电池系统\\电池自动控制系统\\IntegratedControlSystem\\NE.ICS.Attribute\\NE.ICS.Attribute.csproj": {
+                "projectPath": "D:\\个人资料\\电池系统\\电池自动控制系统\\IntegratedControlSystem\\NE.ICS.Attribute\\NE.ICS.Attribute.csproj"
+              },
+              "D:\\个人资料\\电池系统\\电池自动控制系统\\IntegratedControlSystem\\NE.ICS.Common\\NE.ICS.Common.csproj": {
+                "projectPath": "D:\\个人资料\\电池系统\\电池自动控制系统\\IntegratedControlSystem\\NE.ICS.Common\\NE.ICS.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\个人资料\\电池系统\\电池自动控制系统\\IntegratedControlSystem\\NE.ICS.Domain\\NE.ICS.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\个人资料\\电池系统\\电池自动控制系统\\IntegratedControlSystem\\NE.ICS.Domain\\NE.ICS.Domain.csproj",
+        "projectName": "NE.ICS.Domain",
+        "projectPath": "D:\\个人资料\\电池系统\\电池自动控制系统\\IntegratedControlSystem\\NE.ICS.Domain\\NE.ICS.Domain.csproj",
+        "packagesPath": "C:\\Users\\86135\\.nuget\\packages\\",
+        "outputPath": "D:\\个人资料\\电池系统\\电池自动控制系统\\IntegratedControlSystem\\NE.ICS.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\86135\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\个人资料\\电池系统\\电池自动控制系统\\IntegratedControlSystem\\NE.ICS.Infrastructure\\NE.ICS.Infrastructure.csproj": {
+                "projectPath": "D:\\个人资料\\电池系统\\电池自动控制系统\\IntegratedControlSystem\\NE.ICS.Infrastructure\\NE.ICS.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\个人资料\\电池系统\\电池自动控制系统\\IntegratedControlSystem\\NE.ICS.Infrastructure\\NE.ICS.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\个人资料\\电池系统\\电池自动控制系统\\IntegratedControlSystem\\NE.ICS.Infrastructure\\NE.ICS.Infrastructure.csproj",
+        "projectName": "NE.ICS.Infrastructure",
+        "projectPath": "D:\\个人资料\\电池系统\\电池自动控制系统\\IntegratedControlSystem\\NE.ICS.Infrastructure\\NE.ICS.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\86135\\.nuget\\packages\\",
+        "outputPath": "D:\\个人资料\\电池系统\\电池自动控制系统\\IntegratedControlSystem\\NE.ICS.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\86135\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\个人资料\\电池系统\\电池自动控制系统\\IntegratedControlSystem\\NE.ICS.Core\\NE.ICS.Core.csproj": {
+                "projectPath": "D:\\个人资料\\电池系统\\电池自动控制系统\\IntegratedControlSystem\\NE.ICS.Core\\NE.ICS.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.78, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.22, )"
+            },
+            "Quartz": {
+              "target": "Package",
+              "version": "[3.2.3, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\个人资料\\电池系统\\电池自动控制系统\\IntegratedControlSystem\\NE.ICS.Repository\\NE.ICS.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\个人资料\\电池系统\\电池自动控制系统\\IntegratedControlSystem\\NE.ICS.Repository\\NE.ICS.Repository.csproj",
+        "projectName": "NE.ICS.Repository",
+        "projectPath": "D:\\个人资料\\电池系统\\电池自动控制系统\\IntegratedControlSystem\\NE.ICS.Repository\\NE.ICS.Repository.csproj",
+        "packagesPath": "C:\\Users\\86135\\.nuget\\packages\\",
+        "outputPath": "D:\\个人资料\\电池系统\\电池自动控制系统\\IntegratedControlSystem\\NE.ICS.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\86135\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\个人资料\\电池系统\\电池自动控制系统\\IntegratedControlSystem\\NE.ICS.Domain\\NE.ICS.Domain.csproj": {
+                "projectPath": "D:\\个人资料\\电池系统\\电池自动控制系统\\IntegratedControlSystem\\NE.ICS.Domain\\NE.ICS.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

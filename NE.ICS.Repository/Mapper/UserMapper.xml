@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<mapper Namespaces="NE.ICS.OAuth.Mapper.IcsUserMapper,NE.ICS.OAuth">
+	<select id="SelectUser" ParameterType="NE.ICS.Domain.IcsUser,NE.ICS.Domain" ResultType="NE.ICS.Domain.IcsUser,NE.ICS.Domain">
+		select * from IcsUser
+		<where>
+			 <if test="UserName == caiqing">
+				 and UserName=@UserName
+			 </if>
+		 </where>
+	</select>
+	<insert id="InsertUser">
+		insert into IcsUser(Id,UserName,CreateDate,CreateUser,RealName)
+		values(@Id,@UserName,@CreateDate,@CreateUser,@RealName)
+	</insert>
+	<update  id="UpdateUser" ParameterType="NE.ICS.Domain.IcsUser,NE.ICS.Domain">
+		update IcsUser 
+		<set>
+			<if test="UserName != null">
+				 ,UserName=@UserName
+			</if>
+			<if test="RealName != null">
+				,RealName=@RealName
+			</if>
+			<if test="Password != null">
+				,Password=@Password
+			</if>
+		</set>
+		<where>
+			<if test="Id != null">
+				and Id=@Id
+			</if>
+		</where>
+	</update>
+</mapper>

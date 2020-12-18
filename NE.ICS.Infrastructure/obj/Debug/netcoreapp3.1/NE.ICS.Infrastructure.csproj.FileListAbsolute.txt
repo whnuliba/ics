@@ -1,0 +1,16 @@
+D:\个人资料\电池系统\电池自动控制系统\IntegratedControlSystem\NE.ICS.Infrastructure\obj\Debug\netcoreapp3.1\NE.ICS.Infrastructure.csprojAssemblyReference.cache
+D:\个人资料\电池系统\电池自动控制系统\IntegratedControlSystem\NE.ICS.Infrastructure\obj\Debug\netcoreapp3.1\NE.ICS.Infrastructure.AssemblyInfoInputs.cache
+D:\个人资料\电池系统\电池自动控制系统\IntegratedControlSystem\NE.ICS.Infrastructure\obj\Debug\netcoreapp3.1\NE.ICS.Infrastructure.AssemblyInfo.cs
+D:\个人资料\电池系统\电池自动控制系统\IntegratedControlSystem\NE.ICS.Infrastructure\obj\Debug\netcoreapp3.1\NE.ICS.Infrastructure.csproj.CoreCompileInputs.cache
+D:\个人资料\电池系统\电池自动控制系统\IntegratedControlSystem\NE.ICS.Infrastructure\bin\Debug\netcoreapp3.1\NE.ICS.Infrastructure.deps.json
+D:\个人资料\电池系统\电池自动控制系统\IntegratedControlSystem\NE.ICS.Infrastructure\bin\Debug\netcoreapp3.1\NE.ICS.Infrastructure.dll
+D:\个人资料\电池系统\电池自动控制系统\IntegratedControlSystem\NE.ICS.Infrastructure\bin\Debug\netcoreapp3.1\NE.ICS.Infrastructure.pdb
+D:\个人资料\电池系统\电池自动控制系统\IntegratedControlSystem\NE.ICS.Infrastructure\bin\Debug\netcoreapp3.1\NE.ICS.Attribute.dll
+D:\个人资料\电池系统\电池自动控制系统\IntegratedControlSystem\NE.ICS.Infrastructure\bin\Debug\netcoreapp3.1\NE.ICS.Common.dll
+D:\个人资料\电池系统\电池自动控制系统\IntegratedControlSystem\NE.ICS.Infrastructure\bin\Debug\netcoreapp3.1\NE.ICS.Core.dll
+D:\个人资料\电池系统\电池自动控制系统\IntegratedControlSystem\NE.ICS.Infrastructure\bin\Debug\netcoreapp3.1\NE.ICS.Core.pdb
+D:\个人资料\电池系统\电池自动控制系统\IntegratedControlSystem\NE.ICS.Infrastructure\bin\Debug\netcoreapp3.1\NE.ICS.Attribute.pdb
+D:\个人资料\电池系统\电池自动控制系统\IntegratedControlSystem\NE.ICS.Infrastructure\bin\Debug\netcoreapp3.1\NE.ICS.Common.pdb
+D:\个人资料\电池系统\电池自动控制系统\IntegratedControlSystem\NE.ICS.Infrastructure\obj\Debug\netcoreapp3.1\NE.ICS.Infrastructure.csproj.CopyComplete
+D:\个人资料\电池系统\电池自动控制系统\IntegratedControlSystem\NE.ICS.Infrastructure\obj\Debug\netcoreapp3.1\NE.ICS.Infrastructure.dll
+D:\个人资料\电池系统\电池自动控制系统\IntegratedControlSystem\NE.ICS.Infrastructure\obj\Debug\netcoreapp3.1\NE.ICS.Infrastructure.pdb

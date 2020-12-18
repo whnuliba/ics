@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "NE.ICS.Interface/1.0.0": {
+        "runtime": {
+          "NE.ICS.Interface.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NE.ICS.Interface/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
