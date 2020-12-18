@@ -9,9 +9,9 @@ using System.Threading.Tasks;
 
 namespace NE.ICS.ORM
 {
-    public class MapperMethod
+    public class MapperMethod:SingleInstance<MapperMethod>
     {
-        IDbAccessor<MySqlConnection> dbAccessor = DbAccessorManager.CreateDbAccessorFactory<MySqlConnection>().CreateDbAccessor("db2");
+        IDbAccessor<MySqlConnection> dbAccessor = DbAccessorManager.CreateDbAccessorFactory<MySqlConnection>().CreateDbAccessor("db2");       
         public object Select(BoundSql sql) {
             Type ts = null;
             if (!string.IsNullOrWhiteSpace(sql.ParameterType)) {

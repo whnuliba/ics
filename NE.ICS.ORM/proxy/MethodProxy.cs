@@ -87,10 +87,9 @@ namespace NE.ICS.ORM.proxy
                         else
                             o = args[0];
                         BoundSql sql = ba.AnalyzerSql(o).BoundSql;
-                        MapperMethod mm = new MapperMethod();
                         switch (sql.Command) {
                             case XmlSqlEnum.select:
-                                result=mm.Select(sql);
+                                result= MapperMethod.Instance.Select(sql);
                                 break;
 
                         }
