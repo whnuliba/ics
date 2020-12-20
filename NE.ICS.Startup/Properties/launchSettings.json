@@ -2,6 +2,10 @@
   "iisSettings": {
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
+    "iis": {
+      "applicationUrl": "http://localhost/NE.ICS.RestStartup",
+      "sslPort": 0
+    },
     "iisExpress": {
       "applicationUrl": "http://localhost:52938",
       "sslPort": 0

@@ -24,7 +24,10 @@ namespace NE.ICS.ORM.Xml
             XmlNodeList nodeList = node.ChildNodes;
             foreach (XmlNode n in nodeList)
             {
-                if (n.Name != null && n.Name.ToLower() == "where")
+                if (n.NodeType == XmlNodeType.Text) { 
+                
+                }
+                if (n.NodeType == XmlNodeType.Element && n.Name != null && n.Name.ToLower() == "where")
                 {
                     ParseWhere(n, bSql);
                 }
@@ -110,6 +113,10 @@ namespace NE.ICS.ORM.Xml
             XmlNodeList ifs = node.ChildNodes;
             foreach (XmlNode n in ifs)
             {
+                if (n.NodeType != XmlNodeType.Text && (n.Name!=null && n.Name.ToLower() != "if"))
+                {
+                    throw new IcsOrmException($"当前节点不能出现{n.Name}");
+                }
                 ParseIf(n, condition);
             }
             sql.Condition = condition;
@@ -127,6 +134,10 @@ namespace NE.ICS.ORM.Xml
             XmlNodeList ifs = node.ChildNodes;
             foreach (XmlNode n in ifs)
             {
+                if (n.NodeType != XmlNodeType.Text && (n.Name != null && n.Name.ToLower() != "if"))
+                {
+                    throw new IcsOrmException($"当前节点不能出现{n.Name}");
+                }
                 ParseIf(n, condition);
             }
             sql.Set = condition;

@@ -70,7 +70,7 @@ namespace NE.ICS.ORM.Xml
                     ParseDelete(node, sqlObject);
                 }
 
-            } catch (Exception ex) {
+            } catch (IcsOrmException ex) {
                 throw ex;
             } finally {
                 if (null != rt) {
