@@ -6,6 +6,9 @@
 			 <if test="UserName == caiqing">
 				 and UserName=@UserName
 			 </if>
+			<if test="RealName == 蔡清">
+				and RealName=@RealName
+			</if>
 		 </where>
 	</select>
 	<insert id="InsertUser">

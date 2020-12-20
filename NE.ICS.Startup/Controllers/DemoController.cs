@@ -23,7 +23,7 @@ namespace NE.ICS.RestStartup.Controllers
         public object getTest() {
             IcsUser iUser1 = new IcsUser()
             {
-            
+            RealName="蔡清"
             };
             //执行代理
             var serviceProxy = new MethodProxy<IcsUserMapper>();

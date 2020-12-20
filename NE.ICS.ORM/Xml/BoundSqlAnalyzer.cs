@@ -59,7 +59,9 @@ namespace NE.ICS.ORM.Xml
                     set.Append($"{XmlSqlEnum.set.ToString()} {_iftest.Substring(1)} ");
                 }
             }
-            this.BoundSql.ActualSql=$"{this.BoundSql.Sql} {set}{where}";
+            string sqlStr = this.BoundSql.Sql.Replace("#{{set}}",set.ToString())
+                                             .Replace("#{{where}}", where.ToString());
+            this.BoundSql.ActualSql = sqlStr;//$"{this.BoundSql.Sql} {set}{where}";
             this.BoundSql.ActualParameters = var;
             return this;
         }

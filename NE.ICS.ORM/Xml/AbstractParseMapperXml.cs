@@ -14,24 +14,25 @@ namespace NE.ICS.ORM.Xml
                 throw new Exception("有select节点的ID为空");
             BoundSql bSql = new BoundSql();
             bSql.Command = XmlSqlEnum.select;
-            bSql.Sql = node.FirstChild.Value;
             XmlNodeList nodes = node.ChildNodes;
-
             bSql.ParameterType = node.Attributes["ParameterType"] != null ? node.Attributes["ParameterType"].Value : null;
             bSql.ResultType = node.Attributes["ResultType"] != null ? node.Attributes["ResultType"].Value : null;
             bSql.Id = node.Attributes["id"].Value;
             sqlObject.BoundSql.Add($"{bSql.Id}", bSql);
             XmlNodeList nodeList = node.ChildNodes;
+            StringBuilder sqlStr = new StringBuilder();
             foreach (XmlNode n in nodeList)
             {
-                if (n.NodeType == XmlNodeType.Text) { 
-                
+                if (n.NodeType == XmlNodeType.Text) {
+                    sqlStr.Append($" {n.Value}");
                 }
                 if (n.NodeType == XmlNodeType.Element && n.Name != null && n.Name.ToLower() == "where")
                 {
+                    sqlStr.Append(" #{{"+ n.Name + "}}");
                     ParseWhere(n, bSql);
                 }
             }
+            bSql.Sql = sqlStr.ToString();
         }
         public void ParseInsert(XmlNode node, SqlObject sqlObject)
         {
@@ -45,13 +46,20 @@ namespace NE.ICS.ORM.Xml
             bSql.Id = node.Attributes["id"].Value;
             sqlObject.BoundSql.Add($"{bSql.Id}", bSql);
             XmlNodeList nodeList = node.ChildNodes;
+            StringBuilder sqlStr = new StringBuilder();
             foreach (XmlNode n in nodeList)
             {
-                if (n.Name != null && n.Name.ToLower() == "where")
+                if (n.NodeType == XmlNodeType.Text)
                 {
+                    sqlStr.Append($" {n.Value}");
+                }
+                if (n.NodeType == XmlNodeType.Element && n.Name != null && n.Name.ToLower() == "where")
+                {
+                    sqlStr.Append(" #{{" + n.Name + "}}");
                     ParseWhere(n, bSql);
                 }
             }
+            bSql.Sql = sqlStr.ToString();
 
         }
         public void ParseDelete(XmlNode node, SqlObject sqlObject)
@@ -67,13 +75,20 @@ namespace NE.ICS.ORM.Xml
             bSql.Id = node.Attributes["id"].Value;
             sqlObject.BoundSql.Add($"{bSql.Id}", bSql);
             XmlNodeList nodeList = node.ChildNodes;
+            StringBuilder sqlStr = new StringBuilder();
             foreach (XmlNode n in nodeList)
             {
-                if (n.Name != null && n.Name.ToLower() == "where")
+                if (n.NodeType == XmlNodeType.Text)
                 {
+                    sqlStr.Append($" {n.Value}");
+                }
+                if (n.NodeType == XmlNodeType.Element && n.Name != null && n.Name.ToLower() == "where")
+                {
+                    sqlStr.Append(" #{{" + n.Name + "}}");
                     ParseWhere(n, bSql);
                 }
             }
+            bSql.Sql = sqlStr.ToString();
 
         }
         public void ParseUpdate(XmlNode node, SqlObject sqlObject)
@@ -81,25 +96,30 @@ namespace NE.ICS.ORM.Xml
             if (node.Attributes["id"] == null)
                 throw new Exception("有Update节点的ID为空");
             BoundSql bSql = new BoundSql();
-            bSql.Sql = node.FirstChild.Value;
             bSql.Command = XmlSqlEnum.update;
             XmlNodeList nodes = node.ChildNodes;
             bSql.ParameterType = node.Attributes["ParameterType"] != null ? node.Attributes["ParameterType"].Value : null;
             bSql.Id = node.Attributes["id"].Value;
             sqlObject.BoundSql.Add($"{bSql.Id}", bSql);
             XmlNodeList nodeList = node.ChildNodes;
+            StringBuilder sqlStr = new StringBuilder();
             foreach (XmlNode n in nodeList)
             {
+                if (n.NodeType == XmlNodeType.Text)
+                {
+                    sqlStr.Append($" {n.Value}");
+                }
                 if (n.Name != null && n.Name.ToLower() == "where")
                 {
+                    sqlStr.Append(" #{{" + n.Name + "}}");
                     ParseWhere(n, bSql);
                 }
                 if (n.Name != null && n.Name.ToLower() == "set") {
+                    sqlStr.Append(" #{{" + n.Name + "}}");
                     ParseSet(n, bSql);
                 }
             }
-
-
+            bSql.Sql = sqlStr.ToString();
         }
         public void ParseWhere(XmlNode node, BoundSql sql)
         {
@@ -144,6 +164,11 @@ namespace NE.ICS.ORM.Xml
         }
         public void ParseIf(XmlNode node, ExtCondition condition)
         {
+            foreach (XmlNode xn in node.ChildNodes) {
+                if (xn.NodeType != XmlNodeType.Text) {
+                    throw new IcsOrmException($"当前节点不能出现{xn.Name}");
+                }                  
+            }
             //if 只有一个test属性
             IfTest ifTest = new IfTest();
             string test = node.Attributes["test"].Value;

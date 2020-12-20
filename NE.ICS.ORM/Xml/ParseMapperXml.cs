@@ -32,7 +32,6 @@ namespace NE.ICS.ORM.Xml
             }
             XmlDocument xml = new XmlDocument();
             XmlTextReader rt = null;
-            string innrtNodeStr = null;
             MetaObject metaObject = MetaObject.Instance;
             SqlObject sqlObject = new SqlObject();
             try {
